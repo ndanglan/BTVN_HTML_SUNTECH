@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 align="center">Pete's Pizza Delivery</h1>
+        <h2 align="center">Online Order Form</h2>
+        <p  align="center">
+            <small>* required fields</small>
+        </p>
+        <!-- customer details -->
+        <table width="1024" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+                <td>
+                    <form action="">
+                        <fieldset>
+                            <legend> Customer details</legend>
+                            <span>* Name:&ensp;&ensp;&ensp;&ensp;&ensp;</span><input type="text" size="30"/><br/><br/>
+                            <span>* Address:&ensp;&ensp;&ensp;  </span><input type="text"size="50"/><br/><br/>
+                            <span>* Town/city:&ensp;&ensp;</span><input type="text"size="15"/><br/><br/>
+                            <span>* Postcode:&ensp;&ensp; </span><input type="text" size="7"/><br/><br/>
+                            <span>* Tel:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</span><input type="text"size="15"/><br/><br/>
+                            <span>* Email:&ensp;&ensp;&ensp;&ensp;   </span><input type="text"size="50"/><br/><br/>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
+
+        <table width="1024" cellspacing="0" cellpadding="0" align="center">
+            <tr height="140">
+                <!-- topping -->
+                <td >
+                    <form action="">
+                        <fieldset>
+                            <legend>Topping *</legend>
+                            <input type="radio" id="mar"><span> </span><label for="mar">Margherita</label> <br/>
+                            <input type="radio" id="Four Seasons"><span> </span><label for="Four Seasons">Four Seasons</label><br/>
+                            <input type="radio" id="Meat Feast"><span> </span><label for="Meat Feast">Meat Feast</label> <br/>
+                            <br/>
+                        </fieldset>
+                    </form>
+                </td>
+                <!-- Size -->
+                <td>
+                    <form action="">
+                        <fieldset>
+                            <legend>Extras *</legend>
+                            <input type="checkbox" id="mushrooms"><span> </span><label for="mushrooms">Mushrooms</label> <br/>
+                            <input type="checkbox" id="Green peppers"><span> </span><label for="Green peppers">Green peppers</label><br/>
+                            <input type="checkbox" id=" Anchovies"><span> </span><label for="Anchovies">Anchovies</label> <br/>
+                            <input type="checkbox" id=" Extra cheese"><span> </span><label for="Extra cheese">Extra cheese</label>
+                        </fieldset>
+                    </form>
+                </td>
+                <!-- Extras -->
+                <td>
+                    <form action="" width>
+                        <fieldset>
+                            <legend>Size *</legend>
+                            <input type="radio" id="Small" Size=""><span> </span><label for="Small">Small</label> <br/>
+                            <input type="radio" id="Medium"><span> </span><label for="Medium">Medium</label><br/>
+                            <input type="radio" id="Large"><span> </span><label for="Large">Large</label> <br/><br>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Delivery -->
+        <table width="1024" align="center" cellpadding="0" cellspacing="0" border="0=">
+            <tr>
+                <td>
+                    <form action="" >
+                        <fieldset>
+                            <legend>Delivery</legend>
+                            <span>Preferred delivery time:</span> <input type="time"><br>
+                            <span>Delivery instruction: </span><br>
+                            <textarea name="" id="" cols="115" rows="5"></textarea>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <table align="center">
+            <tr>
+                <td><input  type="submit" value="Submit order"></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
