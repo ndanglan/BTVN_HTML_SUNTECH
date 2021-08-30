@@ -176,9 +176,11 @@ a{
 
 .best-productions-items{
     flex-basis:75%;
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
     column-gap: 1rem;
 }
+
 
 .best-productions-item{
     position: relative;
@@ -209,6 +211,11 @@ a{
     position: absolute;
     top: 10px;
     right: 0;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+.best-productions-item:hover .item-custom{
+    opacity: 1;
 }
 
 .item-custom div{
